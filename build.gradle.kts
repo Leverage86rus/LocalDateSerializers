@@ -11,10 +11,9 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/leverage86rus/nvsuapi")
+            url = uri("https://maven.pkg.github.com/leverage86rus/localdateserializers")
             credentials {
                 username = project.findProperty("gpr.user") as String
-                password = project.findProperty("gpr.key") as String
             }
         }
     }
